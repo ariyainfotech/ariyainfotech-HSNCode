@@ -1,0 +1,31 @@
+{
+    "name": "ariyainfotech/module-hsncode",
+    "description": "Extension For Magento2 Product Attribute HSN Code Use in gst tax related Developed By Ariya InfoTech",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+	"version":"1.1.1",
+	"require": {
+        "php": "~5.5.0|~5.6.0|^7.0",
+        "ariyainfotech/module-base": "1.*"
+    },
+    "authors": [
+        {
+            "name": "Ariya InfoTech",
+            "email": "info@ariyainfotech.com"
+        },
+        {
+            "name": "Yuvraj Raulji",
+            "email": "toyuvrajraulji@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"homepage": "https://www.ariyainfotech.com",
+    "autoload": {
+        "psr-4": {
+            "AriyaInfoTech\\HSNCode\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
